@@ -10,7 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Double A;
+            Console.WriteLine("input an Double ");
+            A = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(System.Math.Sqrt(A));
+            Console.ReadKey(); 
         }
     }
 }

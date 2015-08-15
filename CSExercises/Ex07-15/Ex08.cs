@@ -10,6 +10,11 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Double C;
+            Console.WriteLine("Input a Centigrade Scale Temperature");
+            C = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("F=1.8C+32={0:0.00}", 1.8 * C + 32);
+            Console.ReadKey();
             
         }
     }

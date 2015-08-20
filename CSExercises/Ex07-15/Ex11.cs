@@ -13,7 +13,7 @@ namespace CSExercises
             Double D;
             Console.Write("input the Distance: ");
             D = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Price={0:00}$", 2.40 + D * 0.4);
+            Console.WriteLine("Price=${0:0.00}", 2.40 + D * 0.4);
             Console.ReadKey();
 
 
